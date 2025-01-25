@@ -14,8 +14,7 @@
 // * Input: [2,2,1,2,1], output = [2,2,2,1]
 
 function removeSmallest(numbers) {
-    return numbers.sort((x, y) => x - y)
-  }
+  return numbers.sort((x, y) => x - y);
+}
 
-
-  console.log(removeSmallest([1, 2, 3, 4, 5])
+console.log(removeSmallest([1, 2, 3, 4, 5]));
