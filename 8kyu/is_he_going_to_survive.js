@@ -3,7 +3,7 @@
 // Return true if yes, false otherwise :)
 
 function hero(bullets, dragons) {
-  if (bullets > dragons * 2) {
+  if (bullets >= dragons * 2) {
     return true;
   }
   return false;

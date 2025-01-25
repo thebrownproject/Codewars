@@ -7,8 +7,21 @@
 // Write a code that gives out the total amount for different days(d).
 
 function rentalCarCost(d) {
-  // Your solution here
+  let costPerDay = 40
+  let totalCost = d * costPerDay
+  
+  if (d >= 7) {
+totalCost -= 50
+  } else if (d >= 3) {
+    totalCost -= 20
+  }
+  return totalCost
 }
+
+// cost per day variable
+// dicount variable
+//if statment 
+
 
 const chai = require("chai");
 const assert = chai.assert;

@@ -28,3 +28,4 @@ function findNextSquare(sq) {
 }
 
 console.log(findNextSquare(121));
+ 

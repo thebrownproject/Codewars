@@ -11,7 +11,7 @@
 
 function getGrade(s1, s2, s3) {
   grade = (s1 + s2 + s3) / 3;
-  if (grade >= 100) {
+  if (grade >= 90) {
     return "A";
   } else if (grade >= 80) {
     return "B";

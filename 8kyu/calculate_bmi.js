@@ -13,15 +13,14 @@
 // if statement for each
 
 function bmi(weight, height) {
-  const doubleHeight = height * 2;
-  const bmiCal = weight / doubleHeight;
+  const bmiCal = weight / (height * height);
   if (bmiCal <= 18.5) {
     return "Underweight";
   } else if (bmiCal <= 25) {
     return "Normal";
   } else if (bmiCal <= 30) {
     return "Overweight";
-  } else if (bmiCalc > 30) {
+  } else if (bmiCal > 30) {
     return "Obese";
   }
 

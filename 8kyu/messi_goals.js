@@ -11,9 +11,14 @@
 
 // 5, 10, 2  -->  17
 
+// Instructions
+// 
+
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  // code goes here
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals
 }
+
+console.log(goals(6, 7, 3))
 
 const Test = require("@codewars/test-compat");
 
@@ -23,3 +28,4 @@ describe("Tests", () => {
     Test.assertEquals(goals(43, 10, 5), 58);
   });
 });
+
